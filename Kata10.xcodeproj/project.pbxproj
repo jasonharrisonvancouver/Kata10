@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F4F27BE21DC2949009DED40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F27BD21DC2949009DED40 /* main.m */; };
+		9F4F27C621DC2963009DED40 /* ChessBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F27C521DC2963009DED40 /* ChessBoard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		9F4F27BA21DC2949009DED40 /* Kata10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Kata10; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F4F27BD21DC2949009DED40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F4F27C421DC2963009DED40 /* ChessBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChessBoard.h; sourceTree = "<group>"; };
+		9F4F27C521DC2963009DED40 /* ChessBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChessBoard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				9F4F27BD21DC2949009DED40 /* main.m */,
+				9F4F27C421DC2963009DED40 /* ChessBoard.h */,
+				9F4F27C521DC2963009DED40 /* ChessBoard.m */,
 			);
 			path = Kata10;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F4F27BE21DC2949009DED40 /* main.m in Sources */,
+				9F4F27C621DC2963009DED40 /* ChessBoard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
